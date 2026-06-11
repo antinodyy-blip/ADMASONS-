@@ -13,7 +13,7 @@ const members = [
   },
   {
     name: 'Abdullah',
-    role: 'Creative Head',
+    role: 'CO-FOUNDER',
     initials: 'Ab',
     desc: 'Shapes brand identity, visual storytelling, and creative strategy — bridging design thinking with performance to craft campaigns that convert and resonate.',
     linkedin: 'https://www.linkedin.com/in/antinodyy',

@@ -12,6 +12,7 @@ const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Pricing', href: '#pricing' },
   { label: 'Resources', href: '#resources' },
+  { label: 'Blog', href: '/blog' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -74,10 +75,25 @@ export function Navbar() {
 
   const scrollTo = (href: string) => {
     setMobileOpen(false)
+    if (href.startsWith('/')) {
+      window.location.href = href
+      return
+    }
+
     if (href === '#hero') {
+      if (window.location.pathname !== '/') {
+        window.location.href = '/#hero'
+        return
+      }
       window.scrollTo({ top: 0, behavior: 'smooth' })
       return
     }
+
+    if (window.location.pathname !== '/') {
+      window.location.href = `/${href}`
+      return
+    }
+
     const el = document.querySelector(href)
     if (el) el.scrollIntoView({ behavior: 'smooth' })
   }

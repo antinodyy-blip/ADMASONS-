@@ -5,17 +5,10 @@ import { Linkedin } from 'lucide-react'
 
 const members = [
   {
-    name: 'Saba',
-    role: 'Founder',
-    initials: 'S',
-    desc: 'Visionary behind AdMasons — leads overall growth strategy, client partnerships, and the systems that turn marketing spend into compounding, measurable ROI.',
-    linkedin: 'https://www.linkedin.com/in/saba-ansari-6224951b1',
-  },
-  {
     name: 'Abdullah',
-    role: 'CO-FOUNDER',
+    role: 'Founder',
     initials: 'Ab',
-    desc: 'Shapes brand identity, visual storytelling, and creative strategy — bridging design thinking with performance to craft campaigns that convert and resonate.',
+    desc: 'Visionary behind AdMasons — leads overall growth strategy, client partnerships, and the systems that turn marketing spend into compounding, measurable ROI. Shapes brand identity, visual storytelling, and creative strategy — bridging design thinking with performance to craft campaigns that convert and resonate.',
     linkedin: 'https://www.linkedin.com/in/antinodyy',
   },
 ]
